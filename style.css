@@ -1,1 +1,39 @@
 :root{--whatsapp-green:#25D366;--whatsapp-green-dark:#128C7E;--whatsapp-green-light:#dcf8c6;--whatsapp-blue:#34B7F1;--whatsapp-gray:#ece5dd;--whatsapp-dark-gray:#667781}body{background-color:#f0f2f5;font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;padding:20px 0;min-height:100vh;display:flex;align-items:center}.app-header{padding:20px 15px;border-radius:15px;background:linear-gradient(135deg,var(--whatsapp-green) 0,var(--whatsapp-green-dark) 100%);color:#fff;box-shadow:0 4px 12px rgba(37,211,102,.3)}.form-label,.url-preview h6{color:var(--whatsapp-dark-gray)}.logo-container{display:flex;align-items:center;justify-content:center;margin-bottom:10px}.logo-icon{font-size:2.5rem;margin-right:15px}.app-title{font-weight:700;margin:0;font-size:1.8rem}.app-subtitle{opacity:.9;margin:0;font-size:.95rem}.message-card{border:none;border-radius:15px;box-shadow:0 6px 15px rgba(0,0,0,.08);overflow:hidden}.message-card .card-header{background-color:var(--whatsapp-green-dark);color:#fff;border-bottom:none;padding:15px 20px;font-weight:600}.message-card .card-header h3{margin:0;font-size:1.4rem}.form-label{font-weight:600;margin-bottom:8px}.input-group-text{background-color:var(--whatsapp-green-light);border:1px solid #ced4da;font-weight:600}.form-control,.form-control:focus{border-color:#ced4da;box-shadow:0 0 0 .2rem rgba(37,211,102,.25)}.form-control:focus{border-color:var(--whatsapp-green)}#phonePreview{padding:8px 12px;background-color:var(--whatsapp-gray);border-radius:8px;font-size:.9rem}.btn-send{background:linear-gradient(to right,var(--whatsapp-green),var(--whatsapp-green-dark));color:#fff;border:none;padding:14px;font-weight:600;font-size:1.1rem;border-radius:10px;transition:.3s;box-shadow:0 4px 10px rgba(37,211,102,.3)}.btn-send:focus,.btn-send:hover{background:linear-gradient(to right,#1da851,#0d7d68);color:#fff;transform:translateY(-2px);box-shadow:0 6px 15px rgba(37,211,102,.4)}.url-preview{background-color:#f8f9fa;padding:15px;border-radius:10px;border-left:4px solid var(--whatsapp-blue)}.url-preview h6{font-weight:600;margin-bottom:10px}.url-container{background-color:#fff;padding:12px;border-radius:8px;border:1px solid #dee2e6;max-height:120px;overflow-y:auto;word-break:break-all}.url-container code{font-size:.85rem;color:#d63384}.info-card{border:none;border-radius:15px;box-shadow:0 4px 10px rgba(0,0,0,.05);background-color:#fff}.info-card .card-body{padding:20px}.info-card h5{color:var(--whatsapp-green-dark);margin-bottom:15px}.info-card ol,footer{color:var(--whatsapp-dark-gray)}.info-card ol{padding-left:20px}.info-card li{margin-bottom:8px;line-height:1.5}@media (max-width:768px){body{padding:10px;display:block}.container{padding:0}.app-title{font-size:1.5rem}.logo-icon{font-size:2rem}.app-subtitle{font-size:.85rem}}@keyframes pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}.pulse{animation:.5s ease-in-out pulse}
+
+
+/* Developer Badge */
+.developer-badge {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 15px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 0.85rem;
+}
+
+/* Features List */
+.features ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.features li {
+    margin-bottom: 5px;
+    color: var(--whatsapp-dark-gray);
+}
+
+.features h6 {
+    color: var(--whatsapp-green-dark);
+    margin-top: 15px;
+}
+
+/* GitHub Link */
+footer a {
+    color: var(--whatsapp-green-dark) !important;
+    font-weight: 600;
+}
+
+footer a:hover {
+    color: var(--whatsapp-green) !important;
+    text-decoration: underline !important;
+}
